@@ -1,0 +1,52 @@
+﻿
+@media only screen and (max-width: 1200px) {
+   .offers {
+      max-width: 570px;
+   }
+   .filters {
+      max-width: 204px;
+      min-width: 204px;
+   }
+   .view-more {
+      background-position: 35% center;
+   }
+   .filters__reset img {
+      left: 12px;
+   } 
+   td span {
+      display: none;
+   }
+   @media only screen and (max-width: 830px) {
+      .filters {
+         position: fixed;
+         height: 700px;
+         top: 15px;
+         left: -265px;
+         background: #fff;
+         overflow-y: scroll;
+         transition: 0.3s;
+         min-width: 250px;
+         max-width: 250px;
+         margin-left: 0;
+         padding-left: 15px;
+      }
+      .sendvich {
+         display: flex;
+      }
+      .filters_active {
+         transform: translateX(265px);
+      }
+
+}
+@media only screen and (max-width: 600px) {
+   .offers {
+     max-width: 550px;
+   }
+   .card {
+      margin: 15px auto;
+   }
+   .view-more {
+      background-position-x: 30%;
+   }
+
+}

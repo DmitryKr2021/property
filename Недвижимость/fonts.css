@@ -1,0 +1,16 @@
+﻿/* --------------- reset.css --------------- */
+@font-face {
+	font-family:'roboto-bold';
+   src: url(fonts/Roboto-Bold.ttf) format('ttf'),
+        url(fonts/Roboto-Bold.woff) format('woff');
+}
+@font-face {
+	font-family:'roboto-medium';
+   src: url(fonts/Roboto-Medium.ttf) format('ttf'),
+        url(fonts/Roboto-Medium.woff) format('woff');
+}
+@font-face {
+	font-family:'roboto-regular';
+   src: url(fonts/Roboto-Regular.ttf) format('ttf'),
+        url(fonts/Roboto-Regular.woff) format('woff');
+}
